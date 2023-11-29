@@ -1,0 +1,90 @@
+Interviewer :
+
+1.Linganna Kotthinti
+2.Srinivas Gangaram
+
+3. Jonathan 
+
+Time slot : 8.00 PM -9.00 PM
+
+
+1.Introduce yourself
+
+2. walkthough the Rest API flow end to end - Add employee 
+
+3. @transactional anotaton, 
+
+4. what happen if we are trying to add data in 2 table , one is commited the records, other traction is fail and throws exception , how to rollback
+
+5. what are the data structure you have used in projects , when you will use which data structure
+
+6. if we have two bean with same types how to inject the specified bean - @Primary, @Qualifier
+
+7. have you worked on multi threading, how you will create threads
+
+8. we want to continue with main thread and pause other synchronized thread?
+
+9. Left ourter join vs right outer join
+
+10. What is Database connection pooling
+
+11. how to improve the query which will fetch data from multiple tables - how to improve the performance of query
+
+12. Query plan
+
+13. when we use abstract class and interface
+
+14. have you worked on message queue
+
+15. What are the design pattern you have used in project - Singleton, Factory DP, Builder DP, 
+
+16. diffrenet types of testing strategies
+
+17. have you done the code review , how to validate the test cases
+
+18.what is Dependency injection 
+
+19. cache in spring boot, how to implement chache
+
+20.differenct annotation to create bean
+
+21. Distributed tracig server / how to trace the transaction 
+
+22. cuircuit breaker design pattern?
+
+23. how to monitor the health of application and get the metrics
+
+24. while you develope global micro service application what are the things you will consider / components of Microservice
+
+        Spring cloud cofig server, Service Discovery, API gateway, Distribute tracing server,cuircuit breaker/fault tolerance , Load balancer
+
+
+25. what's the big challenges you faced in your recent project and did you handle that?
+
+
+26. what are the angular version you have worked / hybrid application - specifi to my resume
+
+
+
+
+4,8,10,11,12,13,14,17,19
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

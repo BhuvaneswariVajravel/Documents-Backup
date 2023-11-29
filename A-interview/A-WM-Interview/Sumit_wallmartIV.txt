@@ -1,0 +1,31 @@
+Interviewer panel 3 memeber - Srinivas
+
+few question about project then 
+
+1.tell me about your self
+
+2.what is the flow of rest api?
+
+3.microservices circuit breaker?
+
+4.how to create multithreading
+
+5.what are the data structures is used in java
+
+6.how will call one service to other services in microservice
+
+7.how to call one micro service to another micro service
+
+8.how to identify if any services are getting down
+
+9.how to identify issues in microsercice architecture
+
+10.singleton design pattern
+
+11.what's the big challenges you faced in your recent project and did you handle that?
+
+DB
+
+1.what is deadlock and how to resolve
+2.what is inner and outer join
+3.what is index 

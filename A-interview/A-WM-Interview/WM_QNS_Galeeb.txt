@@ -1,0 +1,48 @@
+1.kafka vs MQ messgae system -NA
+2.how to retrieve messgaes from MQ - NA
+
+
+3.CI/CD pipelines  
+4.how to debug the issue in microservice architecture -NA
+5.how to create thread
+6.difference bewteen treemap and hashmap
+
+
+7.database connection pooling - 
+8.database index - NA 
+9.query plan - database manage ment thing, consider all the data in database, and consider index
+10.how to fix slow queires - 
+to optimaze the query we need to avoid sub query, avoid outer join, where condition should hv the proper index
+
+
+11.depenedecy injection
+12.@Aync annotation -  tp create async method which ll call another thread
+13.@Future Annotation - used to validate the date is future or not
+14.How spring boot makes easy configuration -@EnableAutoConfiguration annotation 
+15.APi design patterns - microservice desing patter - ciurcuit pa -NA
+16.Abstratc desgn patterns / factory desing pattern, singleton
+17.how to retrieve logs from cloud - google cloud platform - data base - icp console
+18.diffrenet types of testing strategies - junit - mockito, code review , system integration test, UAT testing
+19.calling external services -
+		 we can call external service synchronusly /asynchronusly 
+
+Synchronous means that you call a web service (or function or whatever) and wait until it returns - all other code execution and user interaction is stopped until the call returns. 
+Asynchronous means that you do not halt all other operations while waiting for the web service call to return
+
+rest template, webclient , 
+
+
+20.how to monitor applications - enable spring actuator to monitor the health of application, hyatrix dash board
+21.Transaction annotation - 
+22.mulitple database connection -while create data siurce with primary anotation ,and qualifer anotation, 
+/23.how to rollback the transaction - if 2 database - @rollback 
+
+@autowire, qualifier - 
+
+
+1,2,4,8,15,16
+
+
+1. types of index
+ unique index -  id, name
+custom index

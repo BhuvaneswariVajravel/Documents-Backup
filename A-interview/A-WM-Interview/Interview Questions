@@ -1,0 +1,192 @@
+==========================================================================================================
+											Core Java
+==========================================================================================================
+1. What is the difference between final, finally & finalize ?
+2. Can we overload static methods, Explain with Example?
+3. Difference between static binding & dynamic binding ?
+4. Difference between List & Set ?
+5. Difference between Exceptions & Error?
+6. What are Checked & Unchecked Exception ?
+7. What is co-variant data types ?
+8. Suppose if Parent class is throwing an Exception, What exception a child can throw ?
+9. What is Compile Time & Runtime Exception ?
+10. At what condition you need to handle the exception, explain with example ?
+1. String builder vs String buffer?
+7. Heap memory and Stack memory?
+8. How to control Memory leakage?
+2. what if we use final keyword for abstract class? can we use it?
+17. Immutable class?
+OOPs concepts
+String concepts
+Java basics on collections(concurrent hash map)
+ Purpose of overriding concept in java?
+
+
+==========================================================================================================
+											Java 8
+==========================================================================================================
+Java8 features
+Functional interface
+Optional keyword
+11. types of Stream?
+12. Example of Function Interface and usage inn your project?
+Java 8 Version features and which using in project, from Basics to Scenario .
+Stream API
+Functional interface
+Lamda expression
+Java 8 functions and streams
+Why default methods?
+Why Static methods?
+
+==========================================================================================================
+											Spring Boot 
+==========================================================================================================
+1. How to use Profiles and what is its significance ?
+2. Can you make a connection of 2 databases in a springboot application ?
+4. What are the different bean scopes available in SpringBoot ?
+5. How does Spring Boot application starts ?
+6. Where to write the Database properties in springboot application ?
+6. Actuator?
+9. Bean Life cycle?
+10. Why dependency injection?
+14. API gateway usage?
+15. Profiles used in your project?
+14. API gateway usage?
+15. Profiles used in your project?
+16. How to generate credentials for your DB which is used in your project?
+Rest template methods
+Load balancing in your application
+Security used in your application
+Scenario based questions like create a spring boot application on the mentioned scenario
+Spring boot uses
+Spring boot annotations
+Difference between spring & Springboot , and its advantages
+What is springjpa
+have good understanding on OAuth2 flows and its implementation using spring-boot-security.
+
+
+==========================================================================================================
+											Microservices 
+==========================================================================================================
+5. Services used in Micro services?
+Communicate between two microservice?
+12 factors in microservice
+
+==========================================================================================================
+											Rest API 
+==========================================================================================================
+Http request status types and uses
+Post vs put
+
+==========================================================================================================
+											Jenkins 
+==========================================================================================================
+13. Stages in Jenkin Ci / CD pipeline?
+
+==========================================================================================================
+											SQL 
+==========================================================================================================
+
+1. Write a query to find the count of all the employess who belongs to city 'X' ?
+ What is Foreign Key?
+ What is Composite key?
+ 
+==========================================================================================================
+											Agile/Scrum 
+==========================================================================================================
+Real scenario with Agile, how it is used in project.
+
+==========================================================================================================
+	Other Interview Questions
+==========================================================================================================
+Input : 1,3,4,1,6,7,3
+public void removeDuplicaes(List<Integer> intList){
+}
+
+1+"10"+30 - what is the output? 11030
+1+20+"20" - 2120
+
+Input : (({}[)) -> is valid string if all open and close brackets are there of all types
+
+public void checkString(String input){
+
+}
+
+
+1. Map<Id,Employee> sort using salary
+Comparator<Employee> cmp = (i1, i2) -> i1.getSal().compareTo(i2.getSal());
+
+final Map<String, Employee> sortedByCount = wordCounts.entrySet()
+                .stream()
+				.sorted((e1, e2) -> e2.getValue().getSal().compareTo(e1.getValue().getSal()))
+                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));
+2. Docker commands
+3. Autowire multiple objects and use those details
+@Autowired injecting List – String
+At Spring boot, @Autowired annotation injects a list of java string objects. The collection of java strings is added to the ArrayList. The array list can be injected using the @Autowired annotation on the spring boot. In the example below, the name list is given in the NameService class. The list is created as a spring boot bean using the @Bean annotation in the @Configuration annotation class.
+
+@Component
+public class NameService {
+	@Autowired
+	List<String> nameList;
+	
+	@PostConstruct
+	public void print() {
+		System.out.println(nameList);
+	}
+}
+@Configuration
+public class ListConfig {
+	@Bean
+	public List<String> nameList() {
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("Danit");
+		list.add("Jin");
+		list.add("Simon");
+		return list;
+	}
+}
+Output
+[Danit, Jin, Simon]
+
+ 
+
+
+@Autowired injecting List of Objects
+The @Autowired annotation injects a list of objects that are implemented by an interface. If the interface is auto wire with @Autowired annotation, all the class objects loaded as bean in the ApplicationContext will be added to the list. In the example below, Vehicle is an interface, all classes implemented are auto-wired in the vehicle list.
+
+@Component
+public class VehicleService {
+	@Autowired 
+	List<Vehicle> vehicleList;
+
+	@PostConstruct
+	public void print() {
+		System.out.println(vehicleList);
+	}
+}
+public interface Vehicle {
+}
+@Component
+public class Car implements Vehicle{
+	@Override
+	public String toString() {
+		return "Car";
+	}
+}
+@Component
+public class Bike implements Vehicle{
+	@Override
+	public String toString() {
+		return "Bike";
+	}
+}
+@Component
+public class Bus implements Vehicle{
+	@Override
+	public String toString() {
+		return "Bus";
+	}
+}
+Output
+[Bike, Car, Bus]

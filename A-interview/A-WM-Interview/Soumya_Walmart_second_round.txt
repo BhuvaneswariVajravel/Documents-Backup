@@ -1,0 +1,5 @@
+Panel - Anupam Khanna
+
+Project explaination - inside executions and calculations
+Dependancy Injection - Advantages
+Volatile keyword
