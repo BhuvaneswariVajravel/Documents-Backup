@@ -1,0 +1,5 @@
+1) For finding 1st repeatative element -> you can also use ( !set.add() ), else code is fine.  
+
+2) Swap linked list -> use custom logic to swap operation and also while while traversal you can add your own logic  instead of pre defined function.
+
+3)Anagram programm and some programm needs to be added.

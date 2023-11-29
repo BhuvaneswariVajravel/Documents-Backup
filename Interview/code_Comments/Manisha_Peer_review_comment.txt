@@ -1,0 +1,11 @@
+1. Please complete all the remaining programs:
+	a. Palindrome using Singly Linked List
+	b. find the islands in 2D matrix
+	c. Implemetaion of Custom HashMap
+	d. Sorting of Employee class with id, Name, Salary without using Java8
+	e. Producer and consumer problem in multi threading
+	f. Program on LRU Cache Implementation
+        g. Execution service for multi threading
+
+2. Most of the cases interviewer asked to not use java8/pre-defined java function. Please practice the programs 
+   without predrfined / java8 functions.

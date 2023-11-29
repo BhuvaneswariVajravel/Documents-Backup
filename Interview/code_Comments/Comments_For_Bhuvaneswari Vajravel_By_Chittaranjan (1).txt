@@ -1,0 +1,8 @@
+sorting based on sal or id --look in to Treeset and compareable and comparator interface
+sortArrayByFrequency --multiple  loops for each,for  and while also converting map to list (we can go for only map and sort the map)
+Singleton missing -just one class do this serilizable,clone (thread safe double locking is missing)
+producer and consumer try with synchronized key word(wait,notify)
+PairWithSum need to improve the method so that it will return all pairs(like in a list or array)
+ImmutableClass --try to add one list field 
+LeastOccurance --check without jdk8 features
+FirstDuplicate -- once founnd break the loop and return the 1st duplicate instead of looping upto n 

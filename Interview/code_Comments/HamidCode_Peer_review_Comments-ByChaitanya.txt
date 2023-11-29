@@ -1,0 +1,10 @@
+1. IntArrayGetTargetPairIndices  - using n*n time complexity try with hashset/hashmap
+2. Palindrome -  can use with simple way with while loop and using start and end of the character to compare which will ne less than o(n) complexity
+3. PushZero to left - need to work on this. Push to left looks fine
+4. Singleton -  code is missing
+5. find duplicates - having o(n*n) need to reduce the time complexity, we use the hashset and try , using  streams looks fine
+6. need to try the 
+	Custom HashMap
+	count Islands in 2d matrix
+
+

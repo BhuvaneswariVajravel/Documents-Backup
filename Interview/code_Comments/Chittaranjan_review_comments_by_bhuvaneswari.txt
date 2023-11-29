@@ -1,0 +1,7 @@
+1	Pair of sum- 2 nd approch - Arrays.sort may increse the time complexity to O(n log(n)) besed on Timesort alogirthm
+2	FirstDuplicate - 	invalid output - remove break at line 20
+3	FirstMinOccurance - 	invalid output - if number is occuered 2 times which is least output shows 0, code working only if least  is 1
+4	FirstSecondDuplicate - 	duplicate2 -  it not return first occurred second duplicate number. Is it correct? try to avoid map/set to reduce auxillary space
+5	RemoveDuplicateFromArray -nested loop increse the time complexity to n^2
+6	LinkedListPalindrome - 	try to avoid stack which will increase auxilary space, instead of that we can reverse 2 nd half of list, compare 1st half, 2nd half
+7	LinkedListswap 	- swap adjacent node progm missing

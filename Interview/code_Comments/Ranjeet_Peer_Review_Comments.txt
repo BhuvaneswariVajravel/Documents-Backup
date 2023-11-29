@@ -1,0 +1,9 @@
+1) Anagram program => static int NO_OF_CHARS=256; and int[] count =new int[NO_OF_CHARS];
+If we could work on this as int[] count is initialized with length 256. 
+
+2) CamelCase program for the input "I am writing code" giving output "IAmWritingCode". Is this the requirement? 
+As problem statement is : Sort a given string in CamelCase input: gEeksfOraEEkS output: aEefgkEkrEOsS.
+
+3) ThirdLargestInArray => there are three if else condition. If it ask for 7th largest then as per your code it will 
+have 7 if else so, please work on this.
+
