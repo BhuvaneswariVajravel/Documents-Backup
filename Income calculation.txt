@@ -1,33 +1,20 @@
 Income  
-curr - 1974381.00.00/12 - 164531*8 =13,16,248
-new -  26,15,934 /12      - 2,17,994.5*4=8,71,976
+coforge - 1974381.00.00/12 - 164531*8 =13,16,248
+new -  26,15,934 /12      - 2,17,994.5*4=8,71,978
 
-Total income - 21,88,248
-taxable income - 16,33,224
-
-
-As per current comp 
-total tax - 250658 - 
-remaining tax - 153,916 p.m - 21988
-tax for 3.5 month - 76958
-remaining tax at dec - 76958
-
-total tax paid till dec - 173701 
-
-Sal in curr comp - 125920 *3.5 = 440720
+Total income - 21,88,226
+taxable income – 16,33,906
 
 
-As per new comp
-Total tax -300000
-remaining tax - 126000
+total tax – 3,14,778– 
+Total tax paid – 110391
+remaining tax -2,04,387 
+tax for 4 month pm  - 51,097
 
 income 
-new -  2615934 /12      - 217994.5*3.3=723983
-pf - 114066 /12    -  9505 *3.3  = 31368
-tax - 126000/3.3   - for dec - 12600 - remaing p.m - 113400/3 = 37800
+new -  26,15,934 /12      - 2,17,994.5* 4=8,71,976
+pf - 114066 /12    -  9505 *4  = 38,020
+income before tax - 2,17,994.5 – 2400 -3000(Food coupon) – 2,14,794
+income p.m  after tax - 2,14,794 – 51,097 = 1,63,697
+ 
 
-income p.m - 170490
-
-for dec - 56000
-
-total tax - 185660.00
